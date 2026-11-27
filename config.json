@@ -1,0 +1,28 @@
+{
+  "scoring_version": "mvp-5resumes-v2",
+  "search": {
+    "area_id": "1",
+    "pages": 2,
+    "per_page": 50,
+    "experience": "",
+    "schedule": "",
+    "min_salary_net": 200000,
+    "min_salary_moscow_mo": 200000,
+    "min_salary_regions_rf": 350000,
+    "min_salary_cis": 500000,
+    "request_delay_min": 1.8,
+    "request_delay_max": 3.2,
+    "max_retries": 3
+  },
+  "scoring": {
+    "min_score_to_export": 6,
+    "priority_high": 12,
+    "priority_medium": 6
+  },
+  "paths": {
+    "db_path": "data/vacancies_mvp.db",
+    "excel_path": "output/vacancies_mvp.xlsx",
+    "report_path": "output/report_mvp.md",
+    "stopwords_path": "config/stopwords.txt"
+  }
+}

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Базы данных и сгенерированные отчёты
+data/
+output/
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.md
+
+# Локальные правки конфига и стоп-слов (если не хочешь светить)
+.env
+*.local
